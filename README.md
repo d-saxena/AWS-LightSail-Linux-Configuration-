@@ -182,3 +182,13 @@ Configure the Uncomplicated Firewall (UFW) to only allow incoming connections fo
 
 ## Restart Apache
 1. Restart Apache `sudo service apache2 restart `
+
+## Third-Party Resources
+
+https://www.techonthenet.com/linux/commands/chown.php
+
+http://flask.pocoo.org/docs/0.12/deploying/mod_wsgi/
+
+https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps#do-not-allow-remote-connections
+
+http://www.techrepublic.com/article/how-to-force-users-to-create-secure-passwords-on-linux/
