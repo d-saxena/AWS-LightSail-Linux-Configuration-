@@ -1,7 +1,7 @@
 # AWS-LightSail-Linux-Configuration-
 In this project, a Linux virtual machine needs to be configurated to support the Item Catalog website.
 
-You can visit http://54.255.239.16 for the website deployed.
+You can visit http://54.255.239.16.nip.io for the website deployed.
 
 ## Tasks
 1. Launch your Virtual Machine with your Udacity account
@@ -141,7 +141,7 @@ Configure the Uncomplicated Firewall (UFW) to only allow incoming connections fo
 	
 	```
 	<VirtualHost *:80>
-		ServerName 54.255.239.16
+		ServerName 54.255.239.16.nip.io
 		ServerAdmin deepankarsaxena1403@gmail.com
 		WSGIScriptAlias / /var/www/FlaskApp/flaskapp.wsgi
 		<Directory /var/www/FlaskApp/FlaskApp/>
